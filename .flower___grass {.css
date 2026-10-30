@@ -1,0 +1,17 @@
+.flower___grass {
+    --c:#028137;
+    --line-w: 1.5vmin;
+    position: absolute;
+    bottom: 12vmin;
+    left: -7vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 20;
+    transform-origin: bottom center;
+    transform: rotate(-48deg) rotate(40deg);
+}
+.flower___grass--1 {
+    -webkit-animation: moving-grass 2s linear infinite;
+    animation: moving-grass 2s linear infinite;
+}
